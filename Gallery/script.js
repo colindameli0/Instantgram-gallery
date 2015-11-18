@@ -1,6 +1,5 @@
-
+//TO BE REFACTORED
 //VARIABLES STORED TO ALLOW CLEARING OF FILTERS UPON NEW CLICKS
-
 $(function() {
   var chosen = "none";
   var clear = function(){
@@ -20,8 +19,6 @@ $(function() {
     var info1 = $(this).data('info1')
     $('img.main').attr('src',fullImage);
     $('.single-image').attr('href',fullImage);
-      // $('.caption').html('<p>' + info + '</p>');
-      // $('.caption2').html('<p>' + info1 + '</p>')
   });
 
   $('.previews a img').on('click', function() {
